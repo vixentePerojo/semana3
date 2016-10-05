@@ -38,6 +38,7 @@ body {
   margin-top:-40px;
   border: 1px solid #111;
   clear: both;
+  color: #fff;
 }
 
 
@@ -46,10 +47,15 @@ body {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #000;
+}
 
+.navbar-default .navbar-toggle:hover .icon-bar{
+  background-color: #fff;
+}
 
 .navbar-default .navbar-collapse
 {
@@ -63,6 +69,22 @@ body {
   color: #000;
   border-top: 1px solid #000;
 }
+
+
+#nav-list a {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+
 /* END HEADER */
 /* MAIN CONTENT */
 #main-content p {
